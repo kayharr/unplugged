@@ -42,7 +42,8 @@ html {
  */
 
 hr {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
@@ -86,6 +87,129 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+
+/* ===============================================
+HOME PAGE
+=============================================== */   
+
+.content-wrapper {
+  width: 90%;
+}
+
+/* HEADER STYLES */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MAIN STYLES */
+
+main {
+
+}
+
+hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+/** Features **/
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+
+.features features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+/** Reviews **/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+/** Social **/
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* ========================================================================
+ABOUT PAGE
+======================================================================== */
+
+.mission {
+  display: flex;
+  justify-content: center; 
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ========================================================================
+FAQ PAGE
+======================================================================== */
+
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  
+  flex-flow: row wrap;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -259,5 +383,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-
+}S
