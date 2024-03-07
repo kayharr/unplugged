@@ -42,8 +42,7 @@ html {
  */
 
 hr {
-  display: flex;
-  justify-content: center;
+  display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
@@ -91,11 +90,12 @@ textarea {
 
 
 /* ===============================================
-HOME PAGE
+                   HOME PAGE
 =============================================== */   
 
 .content-wrapper {
   width: 90%;
+  margin: 50px 0px;
 }
 
 /* HEADER STYLES */
@@ -103,6 +103,7 @@ HOME PAGE
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -110,49 +111,23 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header-divider {  
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
+header nav {
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-}
-
-/* MAIN STYLES */
-
-main {
-
-}
-
-hero-area {
-  display: flex;
-  justify-content: center;
-}
-
-aside {
-  display: flex;
-  justify-content: center;
-}
-
-/** Features **/
-
-.features {
-  display: flex;
-  justify-content: center;
-}
-
-
-.features features-items {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
-
-/** Reviews **/
-
-.reviews {
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 /* FOOTER STYLES */
@@ -162,7 +137,114 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer .contact {
+  margin: 20px 0;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* MAIN STYLES */
+
+main {
+
+}
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-area content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+aside .content-wrapper {
+  display: flex;
+  align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.form text {
+  padding: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.form button {
+  padding: 1em;
+  margin: 20px 0px;
+}
+
+/** Features **/
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features .content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+/** Reviews **/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews h3 {
+  width: 50%;
 }
 
 /** Social **/
@@ -172,11 +254,11 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
 .social p {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 /* ========================================================================
@@ -193,6 +275,10 @@ ABOUT PAGE
   justify-content: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 
 /* ========================================================================
 FAQ PAGE
@@ -203,11 +289,20 @@ FAQ PAGE
   justify-content: center;
 }
 
-.faq content-wrapper {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;  
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
@@ -383,4 +478,4 @@ FAQ PAGE
   h3 {
     page-break-after: avoid;
   }
-}S
+}
