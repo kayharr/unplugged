@@ -471,7 +471,7 @@ FAQ PAGE
     width: 30%;
     padding: 40px;
     display: flex;
-    align-items: ;
+    align-items: center;
     flex-flow: column wrap;
   }
 
@@ -572,6 +572,61 @@ FAQ PAGE
 
 @media only screen and (min-width: 1200px) {
   /* desktop styles here */
+  
+  .content-wrapper {
+    width: 960px;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+    width:70%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+  .features article {  
+    flex-basis: 20%;
+  }
+
+  /* Reviews */
+  .reviews h2 {
+    margin-bottom: 50px;
+  }
+
+  .reviews article div {
+    width: 42%
+  }
+
+  /* ==================================
+    ABOUT 
+    =================================== */
+    .mission h2, 
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
+
+    /* =================================
+      FAQ 
+      ================================== */
+      .faq h2 {
+        width: 100%;;
+      }
 }
 /* ==========================================================================
    Print styles.
