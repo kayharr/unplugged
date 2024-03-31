@@ -662,6 +662,11 @@ FAQ PAGE
     align-content: space-evenly;
   }
 
+  .features i {
+    font-size:  3.75em;
+    margin-bottom: 40px;
+  }
+
   /* Reviews */
 
   .reviews h2 {
