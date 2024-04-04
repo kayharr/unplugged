@@ -805,33 +805,34 @@ FAQ PAGE
   /* ==================================
     ABOUT 
     =================================== */
-    .mission h2, 
-    .contact-section .content-wrapper h2 {
-      width: 95%;
-      font-size: 3em;
-    }
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+    font-size: 3em;
+  }
+    
+  .map figure {
+    padding-bottom: 47%;
+  }
 
-    .map figure {
-      padding-bottom: 47%;
-    }
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
 
-    .contact-content h4 {
-      font-size: 1.875em;
-    }
+  /* =================================
+        FAQ 
+        ================================== */
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
 
-    /* =================================
-      FAQ 
-      ================================== */
-      .faq h2 {
-        width: 100%;
-        font-size: 3em;
-      }
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 
-      .faq h4,
-      .faq p {
-        font-size: 1.125em;
-        line-height: 1;
-      }
 }
 
 /* ==========================================================================
